@@ -2,6 +2,7 @@ baseURL = 'https://nkwook.github.io/blog/'
 languageCode = 'ko'
 title = 'ctx-vault blog'
 theme = 'PaperMod'
+enableRobotsTXT = true
 [pagination]
   pagerSize = 10
 
@@ -14,6 +15,9 @@ theme = 'PaperMod'
   showBreadCrumbs = true
   showCodeCopyButtons = true
   DateFormat = "2006-01-02"
+  description = "AI, 개발, 사이드 프로젝트에 대한 기술 블로그"
+  author = "nkwook"
+  keywords = ["AI", "vector search", "개발", "사이드프로젝트", "RAG", "LLM"]
 
   [params.homeInfoParams]
     Title = "ctx-vault blog"
