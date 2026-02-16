@@ -1,0 +1,41 @@
+baseURL = 'https://nkwook.github.io/blog/'
+languageCode = 'ko'
+title = 'ctx-vault blog'
+theme = 'PaperMod'
+paginate = 10
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  showReadingTime = true
+  showShareButtons = false
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+  DateFormat = "2006-01-02"
+
+  [params.homeInfoParams]
+    Title = "ctx-vault blog"
+    Content = "Personal context & knowledge sharing"
+
+[menu]
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 10
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 20
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai"
