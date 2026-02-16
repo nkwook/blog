@@ -2,7 +2,8 @@ baseURL = 'https://nkwook.github.io/blog/'
 languageCode = 'ko'
 title = 'ctx-vault blog'
 theme = 'PaperMod'
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   env = "production"
