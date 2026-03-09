@@ -7,6 +7,7 @@ enableRobotsTXT = true
   pagerSize = 10
 
 [params]
+  mainSections = ["posts"]
   env = "production"
   defaultTheme = "auto"
   showReadingTime = true
@@ -29,6 +30,11 @@ enableRobotsTXT = true
     name = "Tags"
     url = "/tags/"
     weight = 10
+  [[menu.main]]
+    identifier = "macro-study"
+    name = "Macro Study"
+    url = "/macro-study/"
+    weight = 15
   [[menu.main]]
     identifier = "archives"
     name = "Archives"
