@@ -7,7 +7,7 @@ enableRobotsTXT = true
   pagerSize = 10
 
 [params]
-  mainSections = ["posts"]
+  mainSections = ["posts", "macro-study"]
   env = "production"
   defaultTheme = "auto"
   showReadingTime = true
