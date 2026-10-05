@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
+<style>.t{font-size:19px;font-weight:700;fill:#111827}.s{font-size:13px;fill:#6b7280}.h{font-size:15.5px;font-weight:700;fill:#111827}.l{font-size:13.5px;fill:#1f2937}.b{font-weight:700}.sm{font-size:12.5px;fill:#4b5563}.chip{font-size:12.5px;font-weight:700;fill:#fff}</style>
+<defs><marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect width="800" height="420" rx="14" fill="#ffffff"/>
+<text x="400" y="34" text-anchor="middle" class="t">풀컬러 화면을 만드는 세 가지 방법</text>
+<line x1="266" y1="60" x2="266" y2="400" stroke="#e5e7eb" stroke-width="1.5"/>
+<line x1="533" y1="60" x2="533" y2="400" stroke="#e5e7eb" stroke-width="1.5"/>
+
+<g transform="translate(16,0)">
+<text x="117" y="78" text-anchor="middle" class="h">LCoS 한 장</text>
+<rect x="72" y="92" width="90" height="24" rx="12" fill="#16a34a"/><text x="117" y="109" text-anchor="middle" class="chip">양산 중</text>
+<rect x="40" y="150" width="56" height="56" rx="4" fill="#fecaca" stroke="#ef4444" stroke-width="2"/>
+<rect x="90" y="150" width="56" height="56" rx="4" fill="#bbf7d0" stroke="#22c55e" stroke-width="2" opacity="0.95"/>
+<rect x="140" y="150" width="56" height="56" rx="4" fill="#bfdbfe" stroke="#3b82f6" stroke-width="2" opacity="0.95"/>
+<text x="68" y="226" text-anchor="middle" class="sm">순간 1</text><text x="118" y="226" text-anchor="middle" class="sm">순간 2</text><text x="168" y="226" text-anchor="middle" class="sm">순간 3</text>
+<line x1="40" y1="242" x2="196" y2="242" stroke="#6b7280" stroke-width="1.2" marker-end="url(#ak)"/>
+<text x="117" y="258" text-anchor="middle" class="sm">시간</text>
+<text x="0" y="300" class="l">한 패널이 빨강, 초록, 파랑을</text>
+<text x="0" y="320" class="l">아주 빠르게 번갈아 보여준다.</text>
+<text x="0" y="350" class="sm">눈을 빠르게 움직이면 색이</text>
+<text x="0" y="368" class="sm">갈라져 보일 수 있다.</text>
+<text x="0" y="394" class="sm b">예: Meta Ray-Ban Display</text>
+</g>
+
+<g transform="translate(283,0)">
+<text x="117" y="78" text-anchor="middle" class="h">microLED 세 장 + 프리즘</text>
+<rect x="72" y="92" width="90" height="24" rx="12" fill="#16a34a"/><text x="117" y="109" text-anchor="middle" class="chip">양산 중</text>
+<rect x="92" y="170" width="50" height="50" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+<line x1="92" y1="170" x2="142" y2="220" stroke="#475569"/><line x1="142" y1="170" x2="92" y2="220" stroke="#475569"/>
+<rect x="60" y="175" width="14" height="40" rx="2" fill="#ef4444"/><text x="52" y="200" text-anchor="end" class="sm">빨강</text>
+<rect x="160" y="175" width="14" height="40" rx="2" fill="#3b82f6"/><text x="182" y="200" class="sm">파랑</text>
+<rect x="97" y="238" width="40" height="14" rx="2" fill="#22c55e"/><text x="117" y="270" text-anchor="middle" class="sm">초록</text>
+<line x1="74" y1="195" x2="90" y2="195" stroke="#ef4444" stroke-width="2"/>
+<line x1="160" y1="195" x2="144" y2="195" stroke="#3b82f6" stroke-width="2"/>
+<line x1="117" y1="238" x2="117" y2="222" stroke="#22c55e" stroke-width="2"/>
+<line x1="117" y1="168" x2="117" y2="134" stroke="#6b7280" stroke-width="2.5" marker-end="url(#ak)"/>
+<text x="130" y="150" class="sm">합쳐진 풀컬러</text>
+<text x="0" y="300" class="l">단색 패널 세 장의 빛을 X자</text>
+<text x="0" y="320" class="l">프리즘으로 합친다.</text>
+<text x="0" y="350" class="sm">세 패널을 정밀하게 맞추기</text>
+<text x="0" y="368" class="sm">까다롭고, 부품이 많다.</text>
+<text x="0" y="394" class="sm b">예: RayNeo X3 Pro</text>
+</g>
+
+<g transform="translate(550,0)">
+<text x="117" y="78" text-anchor="middle" class="h">microLED 한 장</text>
+<rect x="72" y="92" width="90" height="24" rx="12" fill="#ea580c"/><text x="117" y="109" text-anchor="middle" class="chip">양산 전</text>
+<rect x="44" y="140" width="146" height="122" rx="4" fill="#111827"/>
+<rect x="56" y="152" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="65" y="152" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="74" y="152" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="86" y="152" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="95" y="152" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="104" y="152" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="116" y="152" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="125" y="152" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="134" y="152" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="146" y="152" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="155" y="152" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="164" y="152" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="56" y="174" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="65" y="174" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="74" y="174" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="86" y="174" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="95" y="174" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="104" y="174" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="116" y="174" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="125" y="174" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="134" y="174" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="146" y="174" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="155" y="174" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="164" y="174" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="56" y="196" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="65" y="196" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="74" y="196" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="86" y="196" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="95" y="196" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="104" y="196" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="116" y="196" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="125" y="196" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="134" y="196" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="146" y="196" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="155" y="196" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="164" y="196" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="56" y="218" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="65" y="218" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="74" y="218" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="86" y="218" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="95" y="218" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="104" y="218" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="116" y="218" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="125" y="218" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="134" y="218" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="146" y="218" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="155" y="218" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="164" y="218" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="56" y="240" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="65" y="240" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="74" y="240" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="86" y="240" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="95" y="240" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="104" y="240" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="116" y="240" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="125" y="240" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="134" y="240" width="8" height="18" rx="1.5" fill="#3b82f6"/><rect x="146" y="240" width="8" height="18" rx="1.5" fill="#ef4444"/><rect x="155" y="240" width="8" height="18" rx="1.5" fill="#22c55e"/><rect x="164" y="240" width="8" height="18" rx="1.5" fill="#3b82f6"/>
+<text x="0" y="300" class="l">한 칩 위에 빨강, 초록, 파랑</text>
+<text x="0" y="320" class="l">LED 를 함께 만든다.</text>
+<text x="0" y="350" class="sm">색마다 재료가 달라 아직 어렵다.</text>
+<text x="0" y="368" class="sm">microLED 역전의 열쇠다.</text>
+<text x="0" y="394" class="sm b">여러 회사가 개발 중</text>
+</g>
+</svg>

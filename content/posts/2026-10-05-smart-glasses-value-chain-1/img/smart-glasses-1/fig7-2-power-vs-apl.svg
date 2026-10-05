@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
+<style>.t{font-size:19px;font-weight:700;fill:#111827}.s{font-size:13px;fill:#6b7280}.l{font-size:13.5px;fill:#1f2937}.b{font-weight:700}.sm{font-size:12.5px;fill:#4b5563}</style>
+<defs><marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker>
+<marker id="agr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker></defs>
+<rect width="800" height="450" rx="14" fill="#ffffff"/>
+<text x="400" y="34" text-anchor="middle" class="t">화면 중 켜진 면적에 따른 전력 (개념도)</text>
+<text x="400" y="56" text-anchor="middle" class="s">방향만 보여주는 그림이다. 눈금은 실제 비율이 아니다.</text>
+<!-- band -->
+<rect x="156" y="80" width="153" height="260" fill="#fef3c7" opacity="0.8"/>
+<text x="232" y="98" text-anchor="middle" class="sm">두 방식이 비슷해지는 구간</text>
+<text x="232" y="115" text-anchor="middle" class="sm">켜진 면적 3~12%</text>
+<text x="232" y="132" text-anchor="middle" class="sm">(LCoS 진영 회사 주장)</text>
+<!-- heat limit -->
+<line x1="90" y1="150" x2="720" y2="150" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="716" y="143" text-anchor="end" class="sm" fill="#b91c1c">안경이 견딜 수 있는 발열 한계</text>
+<!-- axes -->
+<line x1="90" y1="340" x2="735" y2="340" stroke="#374151" stroke-width="1.5" marker-end="url(#ak)"/>
+<line x1="90" y1="340" x2="90" y2="75" stroke="#374151" stroke-width="1.5" marker-end="url(#ak)"/>
+<text x="40" y="210" class="l b" transform="rotate(-90 40 210)" text-anchor="middle">전력 소비</text>
+<text x="720" y="364" text-anchor="end" class="l b">화면 중 켜진 면적 →</text>
+<text x="90" y="358" text-anchor="middle" class="sm">0%</text>
+<text x="200" y="358" text-anchor="middle" class="sm">5%</text>
+<text x="290" y="358" text-anchor="middle" class="sm">10%</text>
+<text x="480" y="358" text-anchor="middle" class="sm">30%</text>
+<!-- LCoS -->
+<path d="M90,232 L720,214" stroke="#2563eb" stroke-width="3.5" fill="none"/>
+<text x="600" y="205" class="l b" fill="#1d4ed8">LCoS</text>
+<text x="600" y="240" class="sm">거의 일정 (고정비)</text>
+<!-- microLED -->
+<path d="M90,334 C150,300 200,262 245,228 S400,150 460,108" stroke="#16a34a" stroke-width="3.5" fill="none" marker-end="url(#agr)"/>
+<text x="474" y="102" class="l b" fill="#15803d">microLED</text>
+<text x="474" y="120" class="sm">켜진 만큼 늘어난다 (변동비)</text>
+<!-- zones -->
+<rect x="90" y="378" width="200" height="54" rx="8" fill="#f0fdf4" stroke="#bbf7d0"/>
+<text x="190" y="400" text-anchor="middle" class="l b" fill="#15803d">microLED 가 유리</text>
+<text x="190" y="420" text-anchor="middle" class="sm">알림 한 줄, 자막, 길안내</text>
+<rect x="470" y="378" width="250" height="54" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+<text x="595" y="400" text-anchor="middle" class="l b" fill="#1d4ed8">LCoS 가 유리</text>
+<text x="595" y="420" text-anchor="middle" class="sm">사진, 영상, 큰 앱 화면</text>
+</svg>

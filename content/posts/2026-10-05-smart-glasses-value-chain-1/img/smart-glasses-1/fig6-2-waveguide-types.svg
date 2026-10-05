@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
+<style>
+.t{font-size:19px;font-weight:700;fill:#111827}.s{font-size:13px;fill:#6b7280}.h{font-size:16px;font-weight:700;fill:#111827}.l{font-size:13.5px;fill:#1f2937}.sm{font-size:12.5px;fill:#4b5563}.o{font-size:12.5px;fill:#c2410c}.b{font-weight:700}
+</style>
+<defs>
+<marker id="ao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f97316"/></marker>
+<marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#fb923c"/></marker>
+</defs>
+<rect width="800" height="450" rx="14" fill="#ffffff"/>
+<text x="400" y="34" text-anchor="middle" class="t">waveguide 를 옆에서 자른 단면: 빛을 꺼내는 두 가지 방식</text>
+<text x="400" y="56" text-anchor="middle" class="s">위쪽이 바깥 세상, 아래쪽이 눈이다. 빛은 왼쪽(광학 엔진)에서 들어온다.</text>
+<line x1="400" y1="76" x2="400" y2="430" stroke="#e5e7eb" stroke-width="1.5"/>
+
+<!-- Panel A: reflective -->
+<g transform="translate(20,0)">
+<text x="180" y="90" text-anchor="middle" class="h">반사형</text>
+<text x="0" y="128" class="sm">바깥 세상</text>
+<!-- glow small -->
+<line x1="215" y1="166" x2="215" y2="150" stroke="#fb923c" stroke-width="1" opacity="0.6" marker-end="url(#ap)"/>
+<line x1="255" y1="166" x2="255" y2="150" stroke="#fb923c" stroke-width="1" opacity="0.6" marker-end="url(#ap)"/>
+<line x1="295" y1="166" x2="295" y2="150" stroke="#fb923c" stroke-width="1" opacity="0.6" marker-end="url(#ap)"/>
+<text x="250" y="122" text-anchor="middle" class="o">바깥으로 새는 빛: 아주 적다</text>
+<text x="250" y="139" text-anchor="middle" class="sm">(눈에 가는 밝기의 약 1.5%)</text>
+<rect x="20" y="168" width="330" height="50" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<polyline points="0,193 40,193 70,216 100,170 130,216 160,170 190,193 340,193" fill="none" stroke="#f97316" stroke-width="2.2" stroke-linejoin="round"/>
+<!-- mirrors -->
+<line x1="203" y1="214" x2="227" y2="172" stroke="#1e3a8a" stroke-width="2.5"/>
+<line x1="243" y1="214" x2="267" y2="172" stroke="#1e3a8a" stroke-width="2.5"/>
+<line x1="283" y1="214" x2="307" y2="172" stroke="#1e3a8a" stroke-width="2.5"/>
+<line x1="323" y1="214" x2="347" y2="172" stroke="#1e3a8a" stroke-width="2.5"/>
+<line x1="215" y1="220" x2="215" y2="285" stroke="#f97316" stroke-width="2.5" marker-end="url(#ao)"/>
+<line x1="255" y1="220" x2="255" y2="285" stroke="#f97316" stroke-width="2.5" marker-end="url(#ao)"/>
+<line x1="295" y1="220" x2="295" y2="285" stroke="#f97316" stroke-width="2.5" marker-end="url(#ao)"/>
+<line x1="335" y1="220" x2="335" y2="285" stroke="#f97316" stroke-width="2.5" marker-end="url(#ao)"/>
+<text x="20" y="236" class="sm">유리 속 반투명 거울</text>
+<line x1="135" y1="232" x2="205" y2="210" stroke="#64748b" stroke-width="1"/>
+<ellipse cx="275" cy="312" rx="42" ry="17" fill="#fff" stroke="#475569" stroke-width="1.5"/><circle cx="275" cy="312" r="8" fill="#334155"/>
+<text x="0" y="316" class="sm">눈</text>
+<text x="0" y="360" class="l">유리 속에 비스듬한 반투명 거울을 심어</text>
+<text x="0" y="380" class="l">빛을 조금씩 눈 쪽으로 꺾는다.</text>
+<text x="0" y="404" class="sm">장점: 빛을 덜 잃는다. 단점: 만들기 까다롭다.</text>
+<text x="0" y="424" class="sm b">Lumus 설계, SCHOTT 제조 → Meta Ray-Ban Display</text>
+</g>
+
+<!-- Panel B: diffractive -->
+<g transform="translate(420,0)">
+<text x="180" y="90" text-anchor="middle" class="h">회절형</text>
+<!-- glow big -->
+<line x1="215" y1="158" x2="215" y2="140" stroke="#f97316" stroke-width="2.2" marker-end="url(#ao)"/>
+<line x1="255" y1="158" x2="255" y2="140" stroke="#f97316" stroke-width="2.2" marker-end="url(#ao)"/>
+<line x1="295" y1="158" x2="295" y2="140" stroke="#f97316" stroke-width="2.2" marker-end="url(#ao)"/>
+<line x1="335" y1="158" x2="335" y2="140" stroke="#f97316" stroke-width="2.2" marker-end="url(#ao)"/>
+<text x="250" y="110" text-anchor="middle" class="o">바깥으로 새는 빛: 많다</text>
+<text x="250" y="127" text-anchor="middle" class="sm">(눈에 가는 밝기의 50~100%)</text>
+<!-- grating teeth -->
+<g fill="#1e3a8a">
+<rect x="196" y="161" width="4" height="7"/><rect x="206" y="161" width="4" height="7"/><rect x="216" y="161" width="4" height="7"/><rect x="226" y="161" width="4" height="7"/><rect x="236" y="161" width="4" height="7"/><rect x="246" y="161" width="4" height="7"/><rect x="256" y="161" width="4" height="7"/><rect x="266" y="161" width="4" height="7"/><rect x="276" y="161" width="4" height="7"/><rect x="286" y="161" width="4" height="7"/><rect x="296" y="161" width="4" height="7"/><rect x="306" y="161" width="4" height="7"/><rect x="316" y="161" width="4" height="7"/><rect x="326" y="161" width="4" height="7"/><rect x="336" y="161" width="4" height="7"/>
+</g>
+<rect x="20" y="168" width="330" height="50" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<polyline points="0,193 40,193 70,216 100,170 130,216 160,170 190,216 220,170 250,216 280,170 310,216 340,170" fill="none" stroke="#f97316" stroke-width="2.2" stroke-linejoin="round"/>
+<!-- out to eye with rainbow -->
+<line x1="215" y1="220" x2="215" y2="285" stroke="#f97316" stroke-width="2.5" marker-end="url(#ao)"/>
+<line x1="295" y1="220" x2="295" y2="285" stroke="#f97316" stroke-width="2.5" marker-end="url(#ao)"/>
+<line x1="255" y1="220" x2="247" y2="282" stroke="#ef4444" stroke-width="1.8"/>
+<line x1="255" y1="220" x2="255" y2="284" stroke="#22c55e" stroke-width="1.8"/>
+<line x1="255" y1="220" x2="263" y2="282" stroke="#3b82f6" stroke-width="1.8"/>
+<line x1="335" y1="220" x2="327" y2="282" stroke="#ef4444" stroke-width="1.8"/>
+<line x1="335" y1="220" x2="335" y2="284" stroke="#22c55e" stroke-width="1.8"/>
+<line x1="335" y1="220" x2="343" y2="282" stroke="#3b82f6" stroke-width="1.8"/>
+<text x="20" y="150" class="sm">표면의 나노 격자</text>
+<line x1="118" y1="154" x2="194" y2="163" stroke="#64748b" stroke-width="1"/>
+<text x="20" y="240" class="sm">색이 갈라지기 쉽다</text>
+<text x="20" y="257" class="sm">(무지개 번짐)</text>
+<ellipse cx="275" cy="312" rx="42" ry="17" fill="#fff" stroke="#475569" stroke-width="1.5"/><circle cx="275" cy="312" r="8" fill="#334155"/>
+<text x="0" y="360" class="l">유리 표면에 나노미터 크기의 격자 무늬를</text>
+<text x="0" y="380" class="l">새겨 빛을 꺾는다.</text>
+<text x="0" y="404" class="sm">장점: 찍어내듯 대량생산하기 쉽다. 단점: 빛을 많이 잃는다.</text>
+<text x="0" y="424" class="sm b">Applied Materials 등 → 중국 제품 다수</text>
+</g>
+</svg>

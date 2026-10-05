@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
+<style>.t{font-size:19px;font-weight:700;fill:#111827}.s{font-size:13px;fill:#6b7280}.h{font-size:16px;font-weight:700;fill:#111827}.l{font-size:13.5px;fill:#1f2937}.b{font-weight:700}.sm{font-size:12.5px;fill:#4b5563}.o{font-size:12.5px;fill:#c2410c}.g{font-size:12.5px;fill:#15803d}</style>
+<defs>
+<marker id="ao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f59e0b"/></marker>
+<clipPath id="cp"><rect x="0" y="126" width="380" height="106"/></clipPath>
+</defs>
+<rect width="800" height="470" rx="14" fill="#ffffff"/>
+<text x="400" y="34" text-anchor="middle" class="t">LCoS 와 microLED: 같은 자리, 다른 방식</text>
+<line x1="400" y1="56" x2="400" y2="450" stroke="#e5e7eb" stroke-width="1.5"/>
+
+<g transform="translate(20,0)">
+<text x="180" y="76" text-anchor="middle" class="h">LCoS: 항상 켜진 손전등 + 셔터</text>
+<rect x="10" y="120" width="72" height="52" rx="6" fill="#fde68a" stroke="#d97706"/>
+<text x="46" y="142" text-anchor="middle" class="l b">LED 광원</text>
+<text x="46" y="160" text-anchor="middle" class="sm">늘 켜져 있다</text>
+<line x1="84" y1="136" x2="146" y2="136" stroke="#f59e0b" stroke-width="3" marker-end="url(#ao)"/>
+<line x1="84" y1="148" x2="146" y2="148" stroke="#f59e0b" stroke-width="3" marker-end="url(#ao)"/>
+<line x1="84" y1="160" x2="146" y2="160" stroke="#f59e0b" stroke-width="3" marker-end="url(#ao)"/>
+<rect x="150" y="112" width="70" height="70" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="1.5"/>
+<line x1="150" y1="112" x2="220" y2="182" stroke="#0ea5e9" stroke-width="1.5"/>
+<text x="185" y="104" text-anchor="middle" class="sm">빛을 나누는 프리즘</text>
+<line x1="185" y1="184" x2="185" y2="226" stroke="#f59e0b" stroke-width="3" marker-end="url(#ao)"/>
+<rect x="128" y="232" width="15" height="22" rx="2" fill="#fde68a" stroke="#94a3b8" stroke-width="0.8"/><rect x="146" y="232" width="15" height="22" rx="2" fill="#374151" stroke="#94a3b8" stroke-width="0.8"/><rect x="164" y="232" width="15" height="22" rx="2" fill="#fde68a" stroke="#94a3b8" stroke-width="0.8"/><rect x="182" y="232" width="15" height="22" rx="2" fill="#fde68a" stroke="#94a3b8" stroke-width="0.8"/><rect x="200" y="232" width="15" height="22" rx="2" fill="#374151" stroke="#94a3b8" stroke-width="0.8"/><rect x="218" y="232" width="15" height="22" rx="2" fill="#fde68a" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="180" y="274" text-anchor="middle" class="sm">LCoS 패널: 화소마다 빛을 반사하거나(밝음) 막는다(어둠)</text>
+<line x1="222" y1="147" x2="330" y2="147" stroke="#f59e0b" stroke-width="3" marker-end="url(#ao)"/>
+<text x="276" y="132" text-anchor="middle" class="o">반사된 빛만</text>
+<text x="276" y="172" text-anchor="middle" class="o">광학 엔진으로</text>
+<text x="0" y="318" class="l">· 전력: 화면 내용과 상관없이 거의 일정하다</text>
+<text x="14" y="337" class="sm">(손전등은 늘 켜져 있다 = 고정비)</text>
+<text x="0" y="364" class="l">· 빛의 크기·각도·편광을 맞추기 쉬워서</text>
+<text x="14" y="383" class="sm">waveguide 입구에 빛을 덜 잃고 넣는다</text>
+<text x="0" y="410" class="l">· 막은 화소에서도 빛이 조금 샌다</text>
+<text x="14" y="429" class="sm">(검정이 완전히 검지 않다)</text>
+</g>
+
+<g transform="translate(420,0)">
+<text x="180" y="76" text-anchor="middle" class="h">microLED: 화소마다 작은 전구</text>
+<g clip-path="url(#cp)"><line x1="125" y1="230" x2="-22.7" y2="204.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="125" y1="230" x2="-4.9" y2="155.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="125" y1="230" x2="28.6" y2="115.1" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="125" y1="230" x2="73.7" y2="89.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="125" y1="230" x2="125.0" y2="80.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="125" y1="230" x2="176.3" y2="89.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="125" y1="230" x2="221.4" y2="115.1" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="125" y1="230" x2="254.9" y2="155.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="125" y1="230" x2="272.7" y2="204.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="203" y1="230" x2="55.3" y2="204.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="203" y1="230" x2="73.1" y2="155.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="203" y1="230" x2="106.6" y2="115.1" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="203" y1="230" x2="151.7" y2="89.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="203" y1="230" x2="203.0" y2="80.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="203" y1="230" x2="254.3" y2="89.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="203" y1="230" x2="299.4" y2="115.1" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="203" y1="230" x2="332.9" y2="155.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="203" y1="230" x2="350.7" y2="204.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="229" y1="230" x2="81.3" y2="204.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="229" y1="230" x2="99.1" y2="155.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="229" y1="230" x2="132.6" y2="115.1" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="229" y1="230" x2="177.7" y2="89.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="229" y1="230" x2="229.0" y2="80.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="229" y1="230" x2="280.3" y2="89.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="229" y1="230" x2="325.4" y2="115.1" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="229" y1="230" x2="358.9" y2="155.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/><line x1="229" y1="230" x2="376.7" y2="204.0" stroke="#22c55e" stroke-width="1.2" opacity="0.6"/></g><line x1="125" y1="230" x2="206.1" y2="100" stroke="#16a34a" stroke-width="2.2"/><line x1="203" y1="230" x2="191.0" y2="100" stroke="#16a34a" stroke-width="2.2"/><line x1="229" y1="230" x2="186.1" y2="100" stroke="#16a34a" stroke-width="2.2"/>
+<rect x="60" y="116" width="118" height="10" fill="#475569"/>
+<rect x="208" y="116" width="118" height="10" fill="#475569"/>
+<text x="60" y="108" class="sm">waveguide 입구</text>
+<rect x="88" y="232" width="22" height="22" rx="3" fill="#111827"/><rect x="114" y="232" width="22" height="22" rx="3" fill="#22c55e"/><rect x="140" y="232" width="22" height="22" rx="3" fill="#111827"/><rect x="166" y="232" width="22" height="22" rx="3" fill="#111827"/><rect x="192" y="232" width="22" height="22" rx="3" fill="#22c55e"/><rect x="218" y="232" width="22" height="22" rx="3" fill="#22c55e"/><rect x="244" y="232" width="22" height="22" rx="3" fill="#111827"/><rect x="270" y="232" width="22" height="22" rx="3" fill="#111827"/>
+<text x="180" y="274" text-anchor="middle" class="sm">microLED 패널: 켜진 화소(초록)만 빛을 낸다</text>
+<text x="300" y="168" class="g">사방으로</text>
+<text x="300" y="185" class="g">퍼진 빛 중</text>
+<text x="300" y="202" class="g">일부만 입구로</text>
+<text x="0" y="318" class="l">· 전력: 켜진 화소만 쓴다</text>
+<text x="14" y="337" class="sm">(켜진 만큼 든다 = 변동비)</text>
+<text x="0" y="364" class="l">· 꺼진 화소는 완전히 검다</text>
+<text x="14" y="383" class="sm">(배경이 깨끗하게 투명하다)</text>
+<text x="0" y="410" class="l">· 빛이 퍼지고 편광이 없어 입구에서 많이 잃는다</text>
+<text x="14" y="429" class="sm">풀컬러를 한 칩에 만들기도 아직 어렵다</text>
+</g>
+</svg>
