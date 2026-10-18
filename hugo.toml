@@ -16,30 +16,45 @@ enableRobotsTXT = true
   showBreadCrumbs = true
   showCodeCopyButtons = true
   DateFormat = "2006-01-02"
-  description = "AI, 개발, 사이드 프로젝트에 대한 기술 블로그"
+  description = "AI·개발과 투자 공부를 기록하는 블로그"
   author = "nkwook"
-  keywords = ["AI", "vector search", "개발", "사이드프로젝트", "RAG", "LLM"]
+  keywords = ["AI", "LLM", "개발", "투자", "반도체", "산업 리서치"]
 
   [params.homeInfoParams]
     Title = "개발명가"
-    Content = "AI, 개발, 사이드 프로젝트에 대한 기술 블로그"
+    Content = "AI·개발과 투자 공부를 기록하는 블로그. 산업 리서치, 시장 메모, 공부 노트를 올립니다."
 
 [menu]
   [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
+    identifier = "investing"
+    name = "투자"
+    url = "/categories/investing/"
     weight = 10
   [[menu.main]]
-    identifier = "macro-study"
-    name = "Macro Study"
-    url = "/macro-study/"
-    weight = 15
+    identifier = "study"
+    name = "공부 노트"
+    url = "/categories/study/"
+    weight = 20
+  [[menu.main]]
+    identifier = "ai-dev"
+    name = "AI·개발"
+    url = "/categories/ai-dev/"
+    weight = 30
   [[menu.main]]
     identifier = "archives"
     name = "Archives"
     url = "/archives/"
-    weight = 20
+    weight = 40
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 50
+  [[menu.main]]
+    identifier = "search"
+    name = "검색"
+    url = "/search/"
+    weight = 60
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

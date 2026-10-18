@@ -2,7 +2,7 @@
 title: "연준 대차대조표와 유동성 — Q&A로 이해하기"
 date: 2026-03-02
 tags: [fed, liquidity, macro, qe, qt, tga, rrp, kevin-warsh, bank-stocks]
-categories: [macro-study]
+categories: [study]
 ShowToc: true
 TocOpen: true
 ---

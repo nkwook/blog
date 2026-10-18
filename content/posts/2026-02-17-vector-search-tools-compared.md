@@ -3,7 +3,7 @@ title: "벡터서치 도구 7종 비교 — 사이드 프로젝트에서 grep �
 date: 2026-02-17T14:00:00+09:00
 draft: false
 tags: [vector-db, vector-search, hybrid-search, lancedb, qdrant, weaviate, turbopuffer, pageindex, rag, ai-agent]
-categories: [research]
+categories: [ai-dev]
 summary: "grep보다 나은 검색이 필요했다. 벡터 + 풀텍스트 하이브리드 서치도 뭔가 아쉬웠다. 2026년 기준 LanceDB, Qdrant, Turbopuffer, Weaviate, PageIndex 등 7종을 CPU 사용량, 비용, 프로덕션 사례 기준으로 비교했다."
 description: "2026년 벡터서치 도구 비교. LanceDB, Qdrant, Turbopuffer, Weaviate, PageIndex, sqlite-vec, Chroma를 CPU 사용량, 비용, Mac Mini 셀프호스팅 관점에서 분석한 실전 가이드."
 keywords: ["벡터서치", "vector search", "벡터 데이터베이스", "LanceDB", "Qdrant", "Turbopuffer", "하이브리드 서치", "RAG", "사이드 프로젝트", "AI agent"]

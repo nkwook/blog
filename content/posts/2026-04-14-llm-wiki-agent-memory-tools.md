@@ -3,7 +3,7 @@ title: "Karpathy LLM Wiki 이후 — AI Agent 메모리 도구 6종 비교 (2026
 date: 2026-04-14T14:00:00+09:00
 draft: false
 tags: [llm-wiki, agent-memory, knowledge-graph, mem0, basic-memory, graphify, graphiti, lightrag, rag, ai-agent]
-categories: [research]
+categories: [ai-dev]
 summary: "LLM과 대화할수록 지식이 쌓여야 하는데 실제로는 매번 같은 맥락을 다시 설명한다. 2026년 들어 이 문제를 푸는 도구들이 동시에 터졌다. Karpathy LLM Wiki 패턴 + basic-memory · graphify · Graphiti · mem0 · LightRAG를 카테고리·원리·장단점·인기도 관점에서 비교한 선택 가이드."
 description: "2026년 AI Agent 메모리 도구 6종(LLM Wiki, basic-memory, graphify, Graphiti, mem0, LightRAG) 비교. 카테고리 구분, 슬롯별 권장 매트릭스, 선택 질문 4개."
 keywords: ["AI Agent Memory", "LLM Wiki", "Karpathy", "mem0", "basic-memory", "graphify", "Graphiti", "Zep", "LightRAG", "Knowledge Graph", "GraphRAG", "2026"]

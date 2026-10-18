@@ -3,7 +3,7 @@ title: "Karpathy LLM Wiki 패턴을 내 vault에 적용해봤다 — graphify + 
 date: 2026-04-14T16:30:00+09:00
 draft: false
 tags: [llm-wiki, agent-memory, knowledge-graph, graphify, basic-memory, claude-code, obsidian, workflow, ai-agent]
-categories: [research]
+categories: [ai-dev]
 summary: "이전 글에서 AI Agent 메모리 도구 지형도를 정리했다. 이번엔 그 중 Karpathy LLM Wiki 패턴을 실제 내 vault에 적용한 실전 경험기다. graphify로 부트스트랩, 3-layer 구조 구축, ingest 스킬 3개 확장, 자가 점검 lint 스킬 1개 신설까지 한 세션에 마무리. 하루 된 wiki에서 real error 3개 잡힌 lint 결과까지."
 description: "Karpathy LLM Wiki 패턴을 개인 마크다운 vault에 적용한 실전 기록. graphify 부트스트랩 결과, 3-layer 아키텍처 설계, basic-memory 평가 실패, DIY 스킬과 lint 도구 제작까지."
 keywords: ["LLM Wiki", "Karpathy", "graphify", "basic-memory", "Claude Code", "Obsidian", "Knowledge Graph", "Agent Memory", "Compounding Knowledge", "Personal Wiki", "2026"]

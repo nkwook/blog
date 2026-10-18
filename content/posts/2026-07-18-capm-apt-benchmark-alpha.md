@@ -3,7 +3,7 @@ title: "α는 어떤 안경으로 재느냐의 함수다 — CAPM, APT, 그리�
 date: 2026-07-18T21:30:00+09:00
 draft: false
 tags: [quant, qepm, capm, apt, alpha, factor-investing, book-study]
-categories: [personal]
+categories: [study]
 summary: "실력이 0인 매니저도 벤치마크 대비 α를 찍을 수 있다. QEPM 2장을 읽다가 CAPM과 APT를 처음부터 다시 쌓아 이해한, benchmark α의 착시 메커니즘."
 ---
 
