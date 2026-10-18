@@ -17,7 +17,7 @@ summary: "10월 급락장에서 정리한 시장 메모. AI 가 미래를 바꿀
 
 1. **수요는 꺾이지 않았다.** 시장이 의심하는 것은 AI 에 댈 돈과, 그 돈이 돌아올 근거다.
 2. **그 근거인 프론티어 모델의 수익성이 아직 입증되지 않았다.** GPU 한 시간의 값은 오르는데 정답 하나의 값은 내려가고, 프론티어 랩은 그 사이에 끼어 있다.
-3. **반등 트리거는 둘 중 하나라고 본다.** 산업 쪽에서 AI 수익성을 입증하는 이벤트가 나오거나, 미국·이란 분쟁이 풀려 금리가 내려갈 길이 열리거나다. 둘 다 아직 보이지 않는다.
+3. **반등 트리거는 둘 중 하나라고 본다.** 산업 쪽에서 AI 수익성이나 기술 도약을 입증하는 이벤트가 나오거나, 미국·이란 분쟁이 풀려 금리가 내려갈 길이 열리거나다. 둘 다 아직 보이지 않는다.
 4. **갈아탈 만큼 싼 다른 업종도 잘 보이지 않는다.**
 5. **그래서 지금은 살아남는 것을 먼저 둔다.** 트리거를 찾기 전까지는 과도한 추가 베팅과 단기 트레이딩을 자제한다.
 
@@ -115,16 +115,22 @@ AI 가 세상을 바꿀 거라는 믿음과, 지금의 투자 속도가 수익�
 
 LTA(장기공급계약), SK하이닉스 ADR 상장, 주주환원, 새 모델 출시 같은 호재는 거의 다 효과가 없었다(kmsmir04). 모두 공급자 쪽 이벤트였기 때문이라고 본다. 시장이 묻는 것은 "최종적으로 누가 이 돈을 내는가"다.
 
-### (A) 산업 쪽에서 AI 수익성을 입증하는 이벤트
+### (A) 산업 쪽에서 AI 수익성이나 기술 도약을 입증하는 이벤트
 
 | 시점 | 이벤트 | 무엇이 확인되면 트리거가 되나 |
 |---|---|---|
 | 10/21~29 | 빅테크 3분기 실적 | 클라우드 매출이 capex 증가를 따라가고 있다는 숫자 |
+| 10/21 전후 | Meta 실적과 Muse 지표 | 개인 AI agent 앱 Muse 의 사용자 수, 유료 전환, 이익 기여 |
 | 10/28, 10/29 | SK하이닉스, 삼성전자 실적 | 2027년 공급 계획과 LTA 단가 |
-| 11월 중순 이후 | Anthropic IPO | 감사받은 손익계산서로 확인되는 흑자 |
+| 상장 로드쇼 15일 전 | Anthropic S-1 공개 | 학습 비용까지 넣은 손익 |
+| 미정 | 기술 도약 (RSI, AGI) | AI 가 AI 연구를 스스로 앞당기는 것이 검증 가능한 형태로 확인되는 것 |
 | 미정 | compute 증권화 | GPU·compute 계약을 묶어 파는 새 자금조달 시장 (Fink) |
 
-가장 직접적인 것은 Anthropic IPO 다. 프론티어 모델 회사가 처음으로 감사받은 숫자를 공개한다. 다만 $1.5~2조 규모의 상장은 그 자체로 시장의 돈을 빨아들이는 물량이기도 하다(필자 판단).
+**Anthropic S-1 은 트리거이면서 우려 포인트다.** 지금 알려진 흑자는 회사가 정한 기준의 숫자다. FT 가 보도한 80% 넘는 매출총이익률은 학습 비용과 클라우드 파트너 몫을 빼기 전 숫자이고, 조정 영업이익은 주식보상비용을 뺀 숫자다(언론 보도). Anthropic 은 6월에 상장 신청서(S-1)를 비공개로 냈고, 재무제표는 로드쇼 시작 최소 15일 전에 공개해야 한다(언론 보도). S-1 에는 학습 비용이 모두 들어간 회계 기준 손익이 실린다. 모델을 돌려 파는 사업이 돈을 번다는 것과, 모델을 만드는 비용까지 합친 회사 전체가 돈을 번다는 것은 다른 이야기다. 그 차이가 크게 드러나면 시장에서 다시 우려가 나올 수 있다. 그리고 $1.5~2조 규모의 상장은 그 자체로 시장의 돈을 빨아들이는 물량이다(필자 판단).
+
+**Meta Muse 는 소비자 쪽 수익화를 볼 수 있는 첫 지표다.** Muse 는 이메일, 캘린더, 결제를 연결하면 일을 대신 처리하는 개인 AI agent 앱이다. 9/8 출시 후 일주일 만에 미국 iOS 무료 앱 1위에 올랐다(언론 보도). 지금까지 AI 매출은 기업과 개발자에게서 주로 나왔다. 일반 소비자가 agent 에 돈을 내기 시작한다는 숫자가 나오면, 4장의 맨 위 고리(누가 최종적으로 돈을 내는가)에 새 답이 생긴다.
+
+**기술 도약은 수익성 질문 자체를 건너뛰게 만들 수 있다.** RSI(Recursive Self-Improvement)는 AI 가 다음 세대 AI 를 만드는 연구를 스스로 앞당기는 상태를 말한다. 이것이 확인되면 지금의 투자 속도는 마진이 아니라 "먼저 도착하는 쪽이 다 가져간다"는 논리로 정당화된다. 다만 기준은 높다. OpenAI 는 9월 GPT-6 Astra 를 내면서 "AGI era"를 말했지만 주가는 움직이지 않았다. 마케팅 문구가 아니라 검증 가능한 결과여야 트리거가 될 것이다.
 
 ### (B) 미국·이란 매크로의 큰 개선
 
@@ -178,10 +184,10 @@ LTA(장기공급계약), SK하이닉스 ADR 상장, 주주환원, 새 모델 출
 
 | 날짜 | 이벤트 | 볼 것 |
 |---|---|---|
-| 10/21~29 | 빅테크 실적 | 클라우드 성장률 vs capex, 2027년 capex 신호 |
+| 10/21~29 | 빅테크 실적 | 클라우드 성장률 vs capex, 2027년 capex 신호, Meta Muse 사용자·매출 |
 | 10/28, 10/29 | SK하이닉스·삼성전자 실적, FOMC | 2027년 공급 계획, LTA 단가 / 금리 경로 |
 | 11/3 | 미국 중간선거 | |
-| 11월 중순 이후 | Anthropic IPO | 감사받은 손익, 공모가 |
+| 11월 중순 이후 | Anthropic S-1 공개와 IPO | 학습 비용을 넣은 회계 기준 손익, 공모가 |
 | 수시 | 호르무즈, 미국·이란 협상 | 유가 → 물가 → 금리 |
 | 매주 | 신용잔고·반대매매 | 레버리지 청산 진행 정도 |
 
@@ -210,6 +216,9 @@ LTA(장기공급계약), SK하이닉스 ADR 상장, 주주환원, 새 모델 출
 **언론 보도·조사기관·증권사**
 - [CNBC, OpenAI revenue (2026-10-08)](https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html)
 - [CNBC, Anthropic Q3 revenue (2026-10-15)](https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html)
+- [The Star/FT, Anthropic 두 분기 연속 흑자 (2026-09-14)](https://www.thestar.com.my/tech/tech-news/2026/09/14/anthropic-tells-investors-it-will-be-profitable-for-second-straight-quarter-ft-reports)
+- [BeInCrypto, Anthropic 흑자와 학습 비용](https://beincrypto.com/anthropic-profit-claim-training-costs/)
+- [CNBC, Meta Muse 다운로드 (2026-09-21)](https://www.cnbc.com/2026/09/21/meta-muse-personal-ai-agent-downloads.html)
 - [TipRanks, CoreWeave CDS (2026-10-15)](https://www.tipranks.com/news/coreweave-stock-drops-another-7-5-today-after-credit-default-risk-hits-record-60-over-large-ai-spending-plans)
 - [Fortune, AI boom vs bust (2026-10-17)](https://fortune.com/2026/10/17/ai-boom-vs-bust-bubble-warning-hyperscaler-spending-debt-coreweave-nvidia/)
 - [Datacurve DeepSWE leaderboard](https://deepswe.datacurve.ai/)
